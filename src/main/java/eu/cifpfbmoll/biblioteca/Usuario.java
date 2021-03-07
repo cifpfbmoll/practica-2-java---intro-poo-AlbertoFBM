@@ -255,7 +255,7 @@ public class Usuario {
                                 listaLibros.get(j).setNum_copias_disponibles(listaLibros.get(j).getNum_copias_disponibles()-1);
                                 //Vamos a añadirlo a la lista de libros Reservados del usuario.
                                 Libro libro = new Libro(listaLibros.get(j));
-                                ((Usuario)listaUsuarios.get(i)).getListaLibrosReservados().add(libro);
+                                //((Usuario)listaUsuarios.get(i)).getListaLibrosReservados().add(libro);
                                 //Vamos a restar un libro a sus copias disponibles
                                 listaLibros.get(j).setNum_copias_disponibles(listaLibros.get(j).getNum_copias_disponibles()-1);
                                 System.out.println("Reserva realizada con éxito");
